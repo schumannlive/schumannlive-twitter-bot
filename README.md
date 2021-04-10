@@ -1,16 +1,16 @@
-### Hi there 👋
+### Schumannlive twitter bot
 
-<!--
-**schumannlive/schumannlive** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I made this little buddy because at the time there was no other twitter bot posting live schumanns. Keep in mind I am still learning :)
 
-Here are some ideas to get you started:
+### How to make it work:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. Provide your twitter API keys in config.js 
+
+2. Run save.js to constantly overwrite graphs in /media/ folder (default is 10 minutes(for example use 'forever' npm package to run it in the background))
+
+3. Run tweet.js in time interval of your choice to post your tweet with fresh graphs
+
+npm dependencies: image-downloader, twit, fs
+
+
+
