@@ -8,7 +8,7 @@ I made this little buddy because at the time there was no other twitter bot post
 
 2. Run save.js to constantly overwrite graphs from Tomsk (http://sosrff.tsu.ru/) and Cumiana (http://www.vlf.it/cumiana/livedata.html) in /media/ folder (default is every 10 minutes)
 
-3. Run tweet.js to tweet Tomsk, and tweetItaly.js to tweet Cumiana in time interval of your choice to post your tweet with fresh graphs
+3. Run tweet.js (Tomsk), and tweetItaly.js (Cumiana) in time interval of your choice to post your tweet with fresh graphs
 
 npm dependencies: image-downloader, twit, fs
 
