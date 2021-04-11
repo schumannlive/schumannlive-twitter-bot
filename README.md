@@ -1,4 +1,4 @@
-### 🌍 Schumannlive twitter bot 🌍
+### 🌍 Schumannlive Twitter bot 🌍
 
 I made this little buddy because at the time there was no other twitter bot posting live schumanns.
 
