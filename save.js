@@ -112,3 +112,19 @@ download.image(options)
   .catch((err) => console.error(err))
 }
 
+setInterval(saveimg8, 1000*60*10)
+
+function saveimg8(){
+
+const options = {
+  url: 'http://www.vlf.it/cumiana/last-plotted.jpg',
+  dest: './media/'                // will be saved to /path/to/dest/image.jpg
+}
+
+download.image(options)
+  .then(({ filename }) => {
+    console.log('Saved to', filename)  // saved to /path/to/dest/image.jpg
+  })
+  .catch((err) => console.error(err))
+}
+
