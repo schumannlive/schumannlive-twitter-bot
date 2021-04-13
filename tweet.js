@@ -33,7 +33,7 @@ T.post('media/upload', {media_data: b64content4}, function (err, data, response)
    
     T.post('media/metadata/create', meta_params, function (err, data, response) {
       if (!err) {
-        var params = { status: `#schumannresonance Russia ` + (date.toUTCString()), media_ids: [mediaIdStr1, mediaIdStr2, mediaIdStr3, mediaIdStr4] }
+        var params = { status: `#schumannresonance Russia, ` + (date.toUTCString()), media_ids: [mediaIdStr1, mediaIdStr2, mediaIdStr3, mediaIdStr4] }
    
         T.post('statuses/update', params, function (err, data, response) {
           console.log(data)
