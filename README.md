@@ -10,7 +10,7 @@ I made this little buddy because at the time there was no other twitter bot post
 
 3. Run tweet.js (Tomsk), and tweetItaly.js (Cumiana) in time interval of your choice to post your tweet with fresh graphs
 
-npm dependencies: image-downloader, twit, fs
+*npm dependencies: image-downloader, twit, fs*
 
 
 
