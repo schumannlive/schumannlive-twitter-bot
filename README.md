@@ -1,8 +1,8 @@
-### 🌍 Schumannlive Twitter bot 🌍
+# 🌍 Schumannlive Twitter bot 🌍
 
 I made this little buddy because at the time there was no other twitter bot posting live schumanns.
 
-### How to make it work:
+## How to make it work:
 
 1. Provide your Twitter API keys in config.js 
 
