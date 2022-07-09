@@ -1,0 +1,30 @@
+{
+  "name": "schumannlive_tweetbot",
+  "version": "1.0.0",
+  "description": "schumannlive twitter",
+  "main": "tweetbot.js",
+  "dependencies": {
+    "console": "^0.7.2",
+    "image-downloader": "^4.0.2",
+    "lunarphase-js": "^1.0.5",
+    "moment": "^2.29.1",
+    "mooncalc": "^1.0.7",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.1.0",
+    "twit": "^2.2.11",
+    "zodiac-signs": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tweetbot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "null"
+  ],
+  "author": "misko schumannlive@protonmail.ch",
+  "license": "ISC"
+}
