@@ -12,8 +12,8 @@ require('./save.js')
 var schedule = require('node-schedule');
 
 var russiarules = new schedule.RecurrenceRule();
-russiarules.dayOfWeek = [0,1,2,3,4,5,6,7];
-russiarules.hour = [1,4,7,10,13,16,19,22];
+russiarules.dayOfWeek = [0,1,2,3,4,5,6];
+russiarules.hour = [0,3,6,9,12,15,19,21];
 russiarules.minute = [0];
 
 schedule.scheduleJob(russiarules, function(){
@@ -21,8 +21,8 @@ schedule.scheduleJob(russiarules, function(){
 });
 
 var italyrules = new schedule.RecurrenceRule();
-italyrules.dayOfWeek = [0,1,2,3,4,5,6,7];
-italyrules.hour = [2,5,8,11,14,17,20,23];
+italyrules.dayOfWeek = [0,1,2,3,4,5,6];
+italyrules.hour = [1,4,7,10,13,16,19,22];
 italyrules.minute = [0];
 
 schedule.scheduleJob(italyrules, function(){
@@ -30,15 +30,13 @@ schedule.scheduleJob(italyrules, function(){
 });
 
 var italy2rules = new schedule.RecurrenceRule();
-italy2rules.dayOfWeek = [0,1,2,3,4,5,6,7];
-italy2rules.hour = [3,6,9,12,15,18,21,24];
+italy2rules.dayOfWeek = [0,1,2,3,4,5,6];
+italy2rules.hour = [2,5,8,11,14,17,20,23];
 italy2rules.minute = [0];
 
 schedule.scheduleJob(italy2rules, function(){
     tweetitaly2()
 });
-
-
 
 function tweetrussia(){
 
